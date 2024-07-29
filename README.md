@@ -92,6 +92,15 @@ Gender Distribution: Tỷ lệ nam giới sử dụng dịch vụ cao hơn nữ 
 Transaction Behavior:
 Revenue by Merchant: Viettel dẫn đầu về doanh thu trung bình hàng tháng , tiếp theo là Mobifone và Vinaphone. Gmobile có doanh thu thấp nhất.
 Location-Based Transaction Amount: Người dùng ở các vùng khác (ngoài HCMC và HN) có xu hướng chi tiêu nhiều hơn, đặc biệt là nhóm tuổi từ 23-27. Trong khi đó, HCMC và HN có mức chi tiêu thấp hơn nhưng vẫn đáng kể.
+![image](https://github.com/user-attachments/assets/97f5c523-73e4-4883-abb7-865fa7b1245f)
+Question :Based on the provided data, what observations and insights can you draw about user demographics and transaction behavior (e.g. trends, classifications)?
+Observations and Insights:
+User Demographics:
+Age Distribution: Người dùng thuộc nhóm tuổi từ 23-27 chiếm tỷ lệ cao nhất (25.48%), tiếp theo là nhóm 28-32 (20.84%). Nhóm tuổi từ 33-37 và 18-22 cũng chiếm một phần đáng kể nhưng thấp hơn. Điều này cho thấy đa số người dùng MoMo nằm trong độ tuổi lao động trẻ, sinh viên.
+Gender Distribution: Tỷ lệ nam giới sử dụng dịch vụ cao hơn nữ giới trong tất cả các nhóm tuổi, với nhóm nam từ 23-27 chiếm tỷ lệ cao nhất (15.15%).
+Transaction Behavior:
+Revenue by Merchant: Viettel dẫn đầu về doanh thu trung bình hàng tháng , tiếp theo là Mobifone và Vinaphone. Gmobile có doanh thu thấp nhất.
+Location-Based Transaction Amount: Người dùng ở các vùng khác (ngoài HCMC và HN) có xu hướng chi tiêu nhiều hơn, đặc biệt là nhóm tuổi từ 23-27. Trong khi đó, HCMC và HN có mức chi tiêu thấp hơn nhưng vẫn đáng kể.
 2. Xu Hướng và Phân Loại
 - Người Dùng Chi Tiêu Cao:
 Người dùng Vinaphone có doanh thu trung bình trên mỗi người dùng cao nhất, cho thấy một phân khúc khách hàng chi tiêu cao.
