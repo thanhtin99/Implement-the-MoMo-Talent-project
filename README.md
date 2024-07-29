@@ -6,8 +6,8 @@
 - Cột Location(HoChiMinh City về HCMC, 'Other‘ về 'Other Cities‘)
 - Cột Gender về female và male
 
-UPDATE Data_Transactions
-SET Amount = CAST(REPLACE(Amount, ',', '') AS INT);
+UPDATE Data_Transactions  
+SET Amount = CAST(REPLACE(Amount, ',', '') AS INT);  
 
 -- Xóa bỏ những dòng không đúng định dạng Date
 SELECT Date  
@@ -20,18 +20,18 @@ where ISDATE(Date) = 0
 -- 1. Using data from the 'Commission' table, add a column 'Revenue' in the 'Transactions' 
 --table that displays MoMo's earned revenue for each order, and then calculate MoMo's total revenue in January 2020.
 
-Alter table Data_Transactions add  Revenue float;
+Alter table Data_Transactions add  Revenue float;  
 
 
-Update Data_Transactions 
-set Revenue = (t.Amount * c.Rate_pct) / 100
-from Data_Transactions t 
-join Data_Commission c on t.Merchant_id = c.Merchant_id;
+Update Data_Transactions   
+set Revenue = (t.Amount * c.Rate_pct) / 100  
+from Data_Transactions t   
+join Data_Commission c on t.Merchant_id = c.Merchant_id;  
 
 
-select   SUM(Revenue)  AS Total_Revenue
-from Data_Transactions
-where Date between '2020-01-01' and '2020-01-31' 
+select   SUM(Revenue)  AS Total_Revenue  
+from Data_Transactions  
+where Date between '2020-01-01' and '2020-01-31'   
 
 -- 2. What is MoMo's most profitable month?
 Select YEAR(Date) as Year, MONTH(Date) as Month, SUM(Revenue) as Total_Revenue
