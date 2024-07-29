@@ -24,6 +24,7 @@ Alter table Data_Transactions add  Revenue float;
 
 
 Update Data_Transactions
+
 set Revenue = (t.Amount * c.Rate_pct) / 100
 from Data_Transactions t 
 join Data_Commission c on t.Merchant_id = c.Merchant_id;
