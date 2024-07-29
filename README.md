@@ -75,7 +75,8 @@ WHERE Type_user ='New'
 ![image](https://github.com/user-attachments/assets/dbfb126a-367a-4845-afe5-4cf934b1263d)
 
 ![image](https://github.com/user-attachments/assets/dc8b4979-cd0e-4419-b3c9-b49b8dc95f4a)
-Question :Based on the provided data, what observations and insights can you draw about user demographics and transaction behavior (e.g. trends, classifications)?  
+
+Question: Based on the provided data, what observations and insights can you draw about user demographics and transaction behavior (e.g. trends, classifications)?  
 Observations and Insights:  
 - User Demographics:  
 Age Distribution: Người dùng thuộc nhóm tuổi từ 23-27 chiếm tỷ lệ cao nhất (25.48%), tiếp theo là nhóm 28-32 (20.84%). Nhóm tuổi từ 33-37 và 18-22 cũng chiếm một phần đáng kể nhưng thấp hơn. Điều này cho thấy đa số người dùng MoMo nằm trong độ tuổi lao động trẻ, sinh viên.  
