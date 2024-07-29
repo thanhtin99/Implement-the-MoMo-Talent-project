@@ -10,11 +10,11 @@ UPDATE Data_Transactions
 SET Amount = CAST(REPLACE(Amount, ',', '') AS INT);
 
 -- Xóa bỏ những dòng không đúng định dạng Date
-SELECT Date
-FROM Data_Transactions
-WHERE ISDATE(Date) = 0;
-Delete from Data_Transactions
-where ISDATE(Date) = 0
+SELECT Date  
+FROM Data_Transactions  
+WHERE ISDATE(Date) = 0;  
+Delete from Data_Transactions  
+where ISDATE(Date) = 0  
 
 
 -- 1. Using data from the 'Commission' table, add a column 'Revenue' in the 'Transactions' 
@@ -23,8 +23,7 @@ where ISDATE(Date) = 0
 Alter table Data_Transactions add  Revenue float;
 
 
-Update Data_Transactions
-
+Update Data_Transactions 
 set Revenue = (t.Amount * c.Rate_pct) / 100
 from Data_Transactions t 
 join Data_Commission c on t.Merchant_id = c.Merchant_id;
