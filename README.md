@@ -26,10 +26,10 @@ from Data_Transactions
 where Date between '2020-01-01' and '2020-01-31'   
 
 -- 2. What is MoMo's most profitable month?
-Select YEAR(Date) as Year, MONTH(Date) as Month, SUM(Revenue) as Total_Revenue
-from Data_Transactions
-group by YEAR(Date), MONTH(Date)
-order by Total_Revenue DESC;
+Select YEAR(Date) as Year, MONTH(Date) as Month, SUM(Revenue) as Total_Revenue  
+from Data_Transactions  
+group by YEAR(Date), MONTH(Date)  
+order by Total_Revenue DESC;  
 
 
 --  3. What day of the week does MoMo make the most money, on average? The least money?
