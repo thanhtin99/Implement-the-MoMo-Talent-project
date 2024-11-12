@@ -6,10 +6,7 @@
 - Cột Location(HoChiMinh City về HCMC, 'Other‘ về 'Other Cities‘)
 - Cột Gender về female và male
 
-UPDATE Data_Transactions  
-SET Amount = CAST(REPLACE(Amount, ',', '') AS INT);  
-
--- 1. Using data from the 'Commission' table, add a column 'Revenue' in the 'Transactions' 
+## 1. Using data from the 'Commission' table, add a column 'Revenue' in the 'Transactions' 
 --table that displays MoMo's earned revenue for each order, and then calculate MoMo's total revenue in January 2020.
 
 Alter table Data_Transactions add  Revenue float;  
