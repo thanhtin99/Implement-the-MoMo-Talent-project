@@ -60,6 +60,7 @@ SELECT COUNT(DISTINCT t.user_id) AS New_Users_Count
 FROM Data_Transactions t  
 WHERE Type_user ='New'  
 
+
 ![image](https://github.com/user-attachments/assets/42443248-9e3c-41a8-bf03-ac6fad18a48d)
 ![image](https://github.com/user-attachments/assets/f97f75b0-7ec6-4320-bc23-4448cfba9664)
 ![image](https://github.com/user-attachments/assets/bcbbb4f4-facf-4bfc-b411-7983df25feb6)
@@ -68,14 +69,15 @@ WHERE Type_user ='New'
 
 ![image](https://github.com/user-attachments/assets/dc8b4979-cd0e-4419-b3c9-b49b8dc95f4a)
 
-Question: Based on the provided data, what observations and insights can you draw about user demographics and transaction behavior (e.g. trends, classifications)?  
+#### Question: Based on the provided data, what observations and insights can you draw about user demographics and transaction behavior (e.g. trends, classifications)? 
 Observations and Insights:  
 - User Demographics:  
 Age Distribution: Người dùng thuộc nhóm tuổi từ 23-27 chiếm tỷ lệ cao nhất (25.48%), tiếp theo là nhóm 28-32 (20.84%). Nhóm tuổi từ 33-37 và 18-22 cũng chiếm một phần đáng kể nhưng thấp hơn. Điều này cho thấy đa số người dùng MoMo nằm trong độ tuổi lao động trẻ, sinh viên.  
 Gender Distribution: Tỷ lệ nam giới sử dụng dịch vụ cao hơn nữ giới trong tất cả các nhóm tuổi, với nhóm nam từ 23-27 chiếm tỷ lệ cao nhất (15.15%).  
 - Transaction Behavior:  
 Revenue by Merchant: Viettel dẫn đầu về doanh thu trung bình hàng tháng , tiếp theo là Mobifone và Vinaphone. Gmobile có doanh thu thấp nhất.
-Location-Based Transaction Amount: Người dùng ở các vùng khác (ngoài HCMC và HN) có xu hướng chi tiêu nhiều hơn, đặc biệt là nhóm tuổi từ 23-27. Trong khi đó, HCMC và HN có mức chi tiêu thấp hơn nhưng vẫn đáng kể.    
+Location-Based Transaction Amount: Người dùng ở các vùng khác (ngoài HCMC và HN) có xu hướng chi tiêu nhiều hơn, đặc biệt là nhóm tuổi từ 23-27. Trong khi đó, HCMC và HN có mức chi tiêu thấp hơn nhưng vẫn đáng kể.
+
 #### Xu Hướng và Phân Loại
 - Người Dùng Chi Tiêu Cao:
 Người dùng Vinaphone có doanh thu trung bình trên mỗi người dùng cao nhất, cho thấy một phân khúc khách hàng chi tiêu cao.
@@ -90,7 +92,7 @@ Các chiến lược điều chỉnh theo sở thích và hành vi cụ thể c�
 Mặc dù có sự chiếm ưu thế nhẹ của nam giới, sự hiện diện của một phần lớn người dùng nữ cho thấy rằng các chương trình khuyến mãi nên bao gồm cả hai giới.
 Các chiến lược tiếp thị cụ thể theo giới tính cũng có thể được khám phá để tăng cường sự tương tác của người dùng nữ.
 
-Do you have any advice for the Marketing department in designing promotion campaigns to increase Topup's monthly performance?  
+#### Do you have any advice for the Marketing department in designing promotion campaigns to increase Topup's monthly performance?  
 Advice:  
 - Targeted Promotions for Young Adults:  
 Tập trung vào nhóm người dùng trẻ (23-27 tuổi) với các chiến dịch khuyến mãi hấp dẫn như hoàn tiền cao hơn, quà tặng khi nạp tiền, hoặc giảm giá đặc biệt cho các dịch vụ hợp tác.
