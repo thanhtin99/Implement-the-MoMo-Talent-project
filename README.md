@@ -1,5 +1,4 @@
 # MoMo Talent Project
-
 ![image](https://github.com/user-attachments/assets/b4ca25f6-cf1e-40f2-97d6-376c47589e18)
 ### - Thực hiện EDA dữ liệu
 ### - Xử lý dữ liệu về đúng định dạng để có thể truy vấn và tính toán
@@ -21,14 +20,13 @@ select   SUM(Revenue)  AS Total_Revenue
 from Data_Transactions  
 where Date between '2020-01-01' and '2020-01-31'   
 
--- 2. What is MoMo's most profitable month?
+### 2. What is MoMo's most profitable month?
 Select YEAR(Date) as Year, MONTH(Date) as Month, SUM(Revenue) as Total_Revenue  
 from Data_Transactions  
 group by YEAR(Date), MONTH(Date)  
 order by Total_Revenue DESC;  
 
-
---  3. What day of the week does MoMo make the most money, on average? The least money?
+### 3. What day of the week does MoMo make the most money, on average? The least money?
 
 Select   DATENAME (WEEKDAY,Date), DATEPART(WEEKDAY,Date), AVG(Revenue) AS Average_Revenue  
 from Data_Transactions  
@@ -36,9 +34,7 @@ group by  DATENAME (WEEKDAY,Date), DATEPART(WEEKDAY,Date)
 ORDER BY   
     DATEPART(WEEKDAY, Date);  
 
--- 4. Combined with the 'User_Info' table, add columns: Age, Gender, Location, Type_user
---(New/Current) in 'Transactions' table and calculate the total number of new users in December 2020.			
-
+### 4. Combined with the 'User_Info' table, add columns: Age, Gender, Location, Type_user (New/Current) in 'Transactions' table and calculate the total number of new users in December 2020.			
 
 -- Bước 1: Thêm các cột vào bảng Data_Transactions  
 ALTER TABLE Data_Transactions  
