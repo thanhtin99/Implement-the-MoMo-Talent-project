@@ -1,12 +1,12 @@
 # MoMo Talent Project
 
 ![image](https://github.com/user-attachments/assets/b4ca25f6-cf1e-40f2-97d6-376c47589e18)
-- Thực hiện EDA dữ liệu
-- Xử lý dữ liệu về đúng định dạng để có thể truy vấn và tính toán
-- Cột Location(HoChiMinh City về HCMC, 'Other‘ về 'Other Cities‘)
-- Cột Gender về female và male
+### - Thực hiện EDA dữ liệu
+### - Xử lý dữ liệu về đúng định dạng để có thể truy vấn và tính toán
+### - Cột Location(HoChiMinh City về HCMC, 'Other‘ về 'Other Cities‘)
+### - Cột Gender về female và male
 
-## 1. Using data from the 'Commission' table, add a column 'Revenue' in the 'Transactions' table that displays MoMo's earned revenue for each order, and then calculate MoMo's total revenue in January 2020.
+### 1. Using data from the 'Commission' table, add a column 'Revenue' in the 'Transactions' table that displays MoMo's earned revenue for each order, and then calculate MoMo's total revenue in January 2020.
 
 Alter table Data_Transactions add  Revenue float;  
 
